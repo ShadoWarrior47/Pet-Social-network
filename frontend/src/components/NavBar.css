@@ -1,0 +1,82 @@
+
+/* NavBar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+}
+
+.navbar-left {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-right a {
+  margin-left: 15px;
+}
+
+/* Home.css */
+.home {
+  text-align: center;
+}
+
+.message-box {
+  margin: 5px 0;
+  font-size: 1.5rem;
+  color: #555;
+}
+
+.content-layout {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.section {
+  padding: 10px;
+  flex: 1;
+}
+
+.event-list {
+  flex: 1;
+  border-right: 1px solid #ccc;
+}
+
+.post-list {
+  flex: 2;
+}
+
+.pet-news-list {
+  flex: 1;
+  border-left: 1px solid #ccc;
+}
+
+
+.notifications-popup {
+  position: absolute;
+  right: 20px; /* Adjust based on your layout */
+  top: 60px; /* Adjust based on your layout */
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.notification-item {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.notification-item:last-child {
+  border-bottom: none;
+}
+
+.notification-bell{
+  display: inline;
+  margin: 0px 10px;
+}
+

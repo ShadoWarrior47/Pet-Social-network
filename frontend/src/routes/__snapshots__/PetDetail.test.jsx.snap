@@ -1,0 +1,27 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`PetDetail Component > matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+      Fluffy
+    </h1>
+    <img
+      alt="Fluffy"
+      src="https://example.com/fluffy.jpg"
+    />
+    <p>
+      Type: Dog
+    </p>
+    <p>
+      Breed: Golden Retriever
+    </p>
+    <p>
+      Age: 3
+    </p>
+    <p>
+      Bio: A friendly and playful dog.
+    </p>
+  </div>
+</DocumentFragment>
+`;

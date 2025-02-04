@@ -1,0 +1,21 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Pet"
+  >
+    <h3>
+      <a
+        data-discover="true"
+        href="/pets/5"
+      >
+        Test Pet
+      </a>
+    </h3>
+    <img
+      alt="Test Pet"
+    />
+  </div>
+</DocumentFragment>
+`;

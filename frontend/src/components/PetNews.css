@@ -1,0 +1,31 @@
+  .PetNews {
+    border: 1px solid #ddd;
+    margin: 10px auto;
+    padding: 15px;
+    width: 80%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .PetNews-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .PetNews-text {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .PetNews-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .PetNews-link:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,21 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Post"
+  >
+    <h2>
+      <a
+        data-discover="true"
+        href="/posts/5"
+      >
+        Test Post
+      </a>
+    </h2>
+    <div
+      class="Post-actions"
+    />
+  </div>
+</DocumentFragment>
+`;

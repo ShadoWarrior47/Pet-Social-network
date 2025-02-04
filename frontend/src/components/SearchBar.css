@@ -1,0 +1,106 @@
+/* Container styling for the search bar */
+.SearchBar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+/* .SearchBar-container form {
+    width: 90%;
+}
+
+.search-box input {
+    width: 80%;
+    padding: 8px;
+    margin-right: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: border-color 0.3s;
+    height: 20px;
+}
+
+.SearchBar-container input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 6px rgba(0, 123, 255, 0.5);
+}
+
+.SearchBar-container input::placeholder {
+    font-size: 14px;
+    color: #888;
+}
+
+.SearchBar-container button {
+    height: 36px;
+    width: 25px;
+    display: inline-block;
+    padding: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+} */
+
+.SearchBar-container form  {
+    position: relative;
+    width: 300px;
+  }
+  
+  /* .SearchBar-container input {
+    width: 70%;
+    padding: 10px 40px 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  } */
+  
+  /* .SearchBar-container button {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    font-size: 18px;
+    color: #555;
+  } */
+
+  .SearchBar-container input{
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 70%;
+    background: #f1f1f1;
+  }
+.SearchBar-container button{
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+
+  .SearchBar-container button:hover {
+    color: #000;
+  }
+  
+  .SearchBar-container input:focus {
+    outline: none;
+    border-color: #888;
+  }

@@ -1,0 +1,45 @@
+/* General styling for the post list */
+.PostList form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.PostList form div label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.PostList form div input {
+  padding: 2px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.PostList form div {
+  min-width: 200px;
+}
+
+.newPost a {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 12px 0px 10px 0px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+} 
+
+.limit input {
+  width: 40px;
+}
+
+.btnNext {
+  float:right;
+}

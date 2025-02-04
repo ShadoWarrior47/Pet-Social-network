@@ -1,0 +1,80 @@
+.event {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 8px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.event:hover {
+    background-color: #f0f8ff;
+}
+
+.event-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.event-details {
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.event-location, .event-date-time {
+    font-weight: bold;
+}
+
+.event-buttons {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btneditDelete{
+    color: white;
+    border: none;
+    height: 35px;
+    width: 60px;
+    font-size: 14px;
+    margin-left: 5px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.btnEdit{
+    background-color: #4CAF50; /* Green */
+    display: inline-block;
+    line-height: 35px;
+}
+
+.btnEdit:hover {
+    background-color: #45a049; /* Slightly darker green */
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.btnEdit:active {
+    background-color: #3e8e41; /* Even darker green for click effect */
+    transform: scale(1); /* Reset zoom */
+}
+
+.btnDelete {
+    background-color: #f44336; /* Red */
+    padding: 5px 10px;
+}
+
+.btnDelete:hover {
+    background-color: #d32f2f; /* Slightly darker red */
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.btnDelete:active {
+    background-color: #b71c1c; /* Even darker red for click effect */
+    transform: scale(1); /* Reset zoom */
+}

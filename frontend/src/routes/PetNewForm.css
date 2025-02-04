@@ -1,0 +1,70 @@
+/* General container styling */
+.PetNewForm-container div {
+    max-width: 600px !important;
+    margin: 0px auto;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    min-width: 500px;
+}
+
+.PetNewForm-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.PetNewForm-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.PetNewForm-container input {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.PetNewForm-container input:focus {
+    border-color: #007bff;
+}
+
+.PetNewForm-container label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    color: #555;
+    text-align: center;
+}
+
+.PetNewForm-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 150px;
+    margin: 0px auto;
+}
+
+.PetNewForm-container button:hover {
+    background-color: #0056b3;
+}
+
+.PetNewForm-container button:active {
+    transform: scale(0.98);
+}

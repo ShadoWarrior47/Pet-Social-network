@@ -1,0 +1,51 @@
+.newEvent a {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 12px 0px 10px 0px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+} 
+.EventList form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .EventList form div label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .EventList form div input {
+    padding: 2px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .EventList form div {
+    min-width: 200px;
+  }
+  
+  .EventList-btns button {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  
